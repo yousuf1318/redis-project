@@ -1,0 +1,19 @@
+{
+  "name": "database-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "author": "Baljeet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jest": "^27.0.6",
+    "mongodb-memory-server": "^6.9.6",
+    "mongoose": "^5.13.4",
+    "net": "^1.0.2"
+  }
+}
